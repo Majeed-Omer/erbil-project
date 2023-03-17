@@ -26,7 +26,7 @@ Future<void> main() async {
     MaterialApp(
         debugShowCheckedModeBanner: false,
         
-        home: status == true ? TechPage() : 
+        home: status == true ? WrapperPage() : 
         MyWidget()),
   )
   );
