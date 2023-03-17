@@ -1,6 +1,5 @@
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:fluid_bottom_nav_bar/fluid_bottom_nav_bar.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/features/erbil/presentation/pages/posts_page.dart';
 import 'package:flutter_application_1/features/erbil/presentation/pages/wishList_page.dart';

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/bigImageWidget.dart';
-import '../widgets/gridViewWidget.dart';
-import '../widgets/gridViewWidget1.dart';
-import '../widgets/listViewWidget.dart';
-import '../widgets/panelWidget.dart';
-import '../widgets/searchButtonWidget.dart';
+import '../widgets/home_page/bigImageWidget.dart';
+import '../widgets/home_page/gridViewWidget.dart';
+import '../widgets/home_page/gridViewWidget1.dart';
+import '../widgets/home_page/listViewWidget.dart';
+import '../widgets/home_page/panelWidget.dart';
+import '../widgets/home_page/searchButtonWidget.dart';
 
 List<String> images = [
   "assets/m.jpg",

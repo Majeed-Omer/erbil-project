@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_application_1/features/erbil/presentation/widgets/postsWidget.dart';
+import 'package:flutter_application_1/features/erbil/presentation/widgets/posts_page/postsWidget.dart';
 import 'package:flutter_application_1/features/erbil/presentation/widgets/txtWidget.dart';
 
 class ListPostViewWidget extends StatelessWidget {

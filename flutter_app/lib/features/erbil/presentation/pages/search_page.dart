@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../widgets/arrowBackWidget.dart';
-import '../widgets/searchBarWidget.dart';
+import '../widgets/search_page/searchBarWidget.dart';
 import 'home_page.dart';
 
 class SearchPage extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/listPostViewWidget.dart';
-import '../widgets/tabBarWidget1.dart';
+import '../widgets/posts_page/listPostViewWidget.dart';
+import '../widgets/posts_page/tabBarWidget1.dart';
 
 class PostsPage extends StatefulWidget {
   @override

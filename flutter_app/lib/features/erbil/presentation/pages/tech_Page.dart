@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/arrowBackWidget.dart';
-import '../widgets/bigImageWidget2.dart';
 import '../widgets/rowButtonFineWidget.dart';
+import '../widgets/tech_page/bigImageWidget2.dart';
 import '../widgets/txtWidget.dart';
 
 class TechPage extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/mapWidget.dart';
-import '../widgets/tabBarWidget.dart';
+import '../widgets/map_page/mapWidget.dart';
+import '../widgets/map_page/tabBarWidget.dart';
 
 class MapPage extends StatefulWidget {
   @override

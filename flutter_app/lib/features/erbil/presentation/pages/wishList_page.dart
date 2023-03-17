@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/gridViewWidget3.dart';
+import '../widgets/restaurant_page/gridViewWidget3.dart';
 
 class WishListPage extends StatefulWidget {
   @override

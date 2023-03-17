@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/listViewAboutWidget.dart';
+import '../widgets/about_page/iconButtonsWidget.dart';
+import '../widgets/about_page/listViewAboutWidget.dart';
 
 class AboutPage extends StatefulWidget {
   @override

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../pages/home_page.dart';
+import '../../pages/home_page.dart';
 
 class GridViewWidget1 extends StatelessWidget {
   const GridViewWidget1({super.key});

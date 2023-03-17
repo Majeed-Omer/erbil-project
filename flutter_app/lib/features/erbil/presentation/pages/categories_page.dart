@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../widgets/arrowBackWidget.dart';
-import '../widgets/bigImageWidget1.dart';
-import '../widgets/gridViewWidget2.dart';
+import '../widgets/categories_page/bigImageWidget1.dart';
+import '../widgets/categories_page/gridViewWidget2.dart';
 
 class CategoriesPage extends StatefulWidget {
   const CategoriesPage({super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../widgets/arrowBackWidget.dart';
-import '../widgets/gridViewWidget3.dart';
-import '../widgets/restTabViewWidget.dart';
+import '../widgets/restaurant_page/gridViewWidget3.dart';
+import '../widgets/restaurant_page/restTabViewWidget.dart';
 
 class RestaurantPage extends StatefulWidget {
   @override
