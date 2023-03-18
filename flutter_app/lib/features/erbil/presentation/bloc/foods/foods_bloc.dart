@@ -1,12 +1,11 @@
 import 'package:bloc/bloc.dart';
-import 'package:flutter_application_1/features/erbil/domain/entities/food.dart';
-import '../../../../../core/error/failures.dart';
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
+import 'package:flutter_application_1/features/erbil/domain/entities/food.dart';
 
+import '../../../../../core/error/failures.dart';
 import '../../../../../core/strings/failures.dart';
 import '../../../domain/usecases/get_all_foods.dart';
-
 
 part 'foods_event.dart';
 part 'foods_state.dart';

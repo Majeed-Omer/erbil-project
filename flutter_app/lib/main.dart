@@ -4,7 +4,6 @@ import 'package:flutter_application_1/features/erbil/presentation/pages/register
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'features/erbil/presentation/bloc/foods/foods_bloc.dart';
-import 'features/erbil/presentation/pages/tech_page.dart';
 import 'features/erbil/presentation/pages/wrapper_page.dart';
 import 'injection_container.dart' as di;
 
@@ -16,20 +15,14 @@ Future<void> main() async {
 
   SharedPreferences preferences = await SharedPreferences.getInstance();
   var status = preferences.getBool("isLoggedIn") ?? false;
-  runApp(
-    MultiBlocProvider(
+  runApp(MultiBlocProvider(
     providers: [
-          BlocProvider(
-              create: (_) => di.sl<FoodsBloc>()..add(GetAllFoodsEvent())),
-        ],
-    child: 
-    MaterialApp(
+      BlocProvider(create: (_) => di.sl<FoodsBloc>()..add(GetAllFoodsEvent())),
+    ],
+    child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        
-        home: status == true ? WrapperPage() : 
-        MyWidget()),
-  )
-  );
+        home: status == true ? WrapperPage() : MyWidget()),
+  ));
 }
 
 class MyWidget extends StatefulWidget {

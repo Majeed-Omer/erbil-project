@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-import '../widgets/about_page/iconButtonsWidget.dart';
 import '../widgets/about_page/listViewAboutWidget.dart';
+import 'register_page.dart';
 
 class AboutPage extends StatefulWidget {
   @override
@@ -18,6 +19,21 @@ class _AboutPageState extends State<AboutPage> {
           "About",
           style: TextStyle(color: Colors.black),
         ),
+        actions: [
+            IconButton(
+              icon: Icon(Icons.logout, color: Colors.black,),
+              onPressed: () async {
+                SharedPreferences preferences =
+                    await SharedPreferences.getInstance();
+                preferences.setBool("isLoggedIn", false);
+                Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(
+                      builder: (BuildContext context) => RegisterPage(),
+                    ));
+              },
+            )
+          ],
         centerTitle: true,
         backgroundColor: Colors.transparent,
         elevation: 0.0,

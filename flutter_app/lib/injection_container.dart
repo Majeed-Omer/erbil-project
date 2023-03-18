@@ -9,7 +9,7 @@ import 'package:http/http.dart' as http;
 final sl = GetIt.instance;
 
 Future<void> init() async {
-//! Features - posts
+//! Features - foods
 
 // Bloc
 

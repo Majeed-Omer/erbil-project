@@ -3,10 +3,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../bloc/foods/foods_bloc.dart';
 import '../widgets/arrowBackWidget.dart';
-import '../widgets/fine_dining_page/callButtonWidget.dart';
 import '../widgets/fine_dining_page/panelWidget1.dart';
 import '../widgets/fine_dining_page/food_list_widget.dart';
 import '../widgets/fine_dining_page/message_display_widget.dart';
+import '../widgets/home_page/listViewWidget.dart';
 import '../widgets/rowButtonFineWidget.dart';
 
 class FineDiningPage extends StatefulWidget {
@@ -32,6 +32,7 @@ class _FineDiningPageState extends State<FineDiningPage> {
       ),
       body: 
       ListView(
+        shrinkWrap: true,
         children: [
           PanelWidget1(),
           Padding(
@@ -85,6 +86,7 @@ class _FineDiningPageState extends State<FineDiningPage> {
                 SizedBox(
                   height: 50,
                 ),
+                ListViewWidget(),
                 Container(
                     alignment: Alignment.centerLeft,
                     child: Text(
